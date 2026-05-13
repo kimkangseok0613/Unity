@@ -1,0 +1,608 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-13T12:16:32.7416542Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16094 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-13T12:16:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Administrator/Desktop/Program
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50633
+-licensingIpc
+LicenseClient-Administrator
+-job-worker-count
+13
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Administrator/Desktop/Program
+C:/Users/Administrator/Desktop/Program
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [5232]  Target information:
+
+Player connection [5232]  * "[IP] 192.168.0.38 [Port] 0 [Flags] 2 [Guid] 3433619879 [EditorId] 3433619879 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T679CQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5232] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/Program/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     15962 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001746 seconds.
+- Loaded All Assemblies, in  0.388 seconds
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
+[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-13T12:16:33.5557391Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2896, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2ffa5a69be32462fa52ddb7a8593c6ab
+  Correlation Id:          15cadaf70560d2543650e2ab02fab493
+  External correlation Id: 3581390228182009699
+  Machine Id:              zh+5FITcPUnW+MXsE1JbpT1t6Jw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-13T12:16:33.5613945Z"
+[Licensing::Module] Licensing Background thread has ended after 0.82s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.389 seconds
+Domain Reload Profiling: 775ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569550976948-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1487ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6437 unused Assets / (3.4 MB). Loaded Objects now: 7228.
+Memory consumption went from 148.0 MB to 144.6 MB.
+Total: 5.563200 ms (FindLiveObjects: 0.495200 ms CreateObjectMapping: 0.253700 ms MarkObjects: 3.452100 ms  DeleteObjects: 1.361600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5372.891784 seconds.
+  path: Assets/Scenes/Class 01th (Interface).unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Class 01th (Interface).unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95523368185bf98af3544e6306eac34e') in 0.0450949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 409.885873 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Rails/Rail_Pistol_A.prefab
+  artifactKey: Guid(62758e582b3b71346b2df19e4e389cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Rails/Rail_Pistol_A.prefab using Guid(62758e582b3b71346b2df19e4e389cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ebad6f8fb61818e3dbb4f09ebc8a116') in 0.0698374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Optics
+  artifactKey: Guid(bf6c129327acbde4a97a9687a63d48b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Optics using Guid(bf6c129327acbde4a97a9687a63d48b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b910e4207255da4ae5c4fe044c975336') in 0.0094844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories
+  artifactKey: Guid(6ef8ecf66ad43a94795fe2f585b9bdcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories using Guid(6ef8ecf66ad43a94795fe2f585b9bdcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca03e2240d2dbcc95158f657aa843acb') in 0.0078926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories
+  artifactKey: Guid(0221433be9a4f7140906464e96017002) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories using Guid(0221433be9a4f7140906464e96017002) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39d44938b7b427a3cbab273ef64f9b05') in 0.0081365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles
+  artifactKey: Guid(b24ac4da90e2f814d878316c095862eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles using Guid(b24ac4da90e2f814d878316c095862eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c61869df0a418c15ea0524cf15da21ed') in 0.0079673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Optics/Optic_Pistol_A.prefab
+  artifactKey: Guid(07b5fdf89d3b4e84b9bdc60fe35d16f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Optics/Optic_Pistol_A.prefab using Guid(07b5fdf89d3b4e84b9bdc60fe35d16f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dddb05518adaac49f2711366ff3e314a') in 0.0127517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Weapons
+  artifactKey: Guid(e556434e85d195e41b88420066084833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Weapons using Guid(e556434e85d195e41b88420066084833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79cebf6539cc4414161fc0cd04f890fb') in 0.0075214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Muzzles/Muzzle_Pistol_Flash Hider_B.prefab
+  artifactKey: Guid(442725cdc345e3641906697099919a12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Muzzles/Muzzle_Pistol_Flash Hider_B.prefab using Guid(442725cdc345e3641906697099919a12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '957663de694c9386d273cf71966dd46d') in 0.0126913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Flash Hider_A.fbx
+  artifactKey: Guid(ff9cced84d1d8404aa0e1fd4bc7c6ccf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Flash Hider_A.fbx using Guid(ff9cced84d1d8404aa0e1fd4bc7c6ccf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '448fb921a033e7aea1c041d1e0ea1557') in 0.0355911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Suppressor_A.fbx
+  artifactKey: Guid(7bb116bb4b5ba1b479df60b7e9540809) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Suppressor_A.fbx using Guid(7bb116bb4b5ba1b479df60b7e9540809) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47d39dbf49b05bd68c5faa97a4a2ffd6') in 0.0182082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Rails
+  artifactKey: Guid(4f943d6b700cc704fa50d9938bdc57a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Rails using Guid(4f943d6b700cc704fa50d9938bdc57a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81c3c822c8825b14b17c310bcae63001') in 0.0083731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Materials/Low Poly Lens.mat
+  artifactKey: Guid(10448fa9df7ee7542942fc23303b0707) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Materials/Low Poly Lens.mat using Guid(10448fa9df7ee7542942fc23303b0707) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6335775a5f70fd12c1af797e86c45f67') in 0.0366302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Bullets
+  artifactKey: Guid(5cb1ffdfc13ff984e93792a753232788) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Bullets using Guid(5cb1ffdfc13ff984e93792a753232788) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ddf72029dab4289902b421959be19c5') in 0.0093044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics
+  artifactKey: Guid(8ebcf1ea4c40cbe4d9e3d7bd25c4e076) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics using Guid(8ebcf1ea4c40cbe4d9e3d7bd25c4e076) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abf6f3c85ca24ecaee6b525e6eb76fd9') in 0.0086359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Materials/Plane.mat
+  artifactKey: Guid(90e4f2de9ae0a284ba2db9bdbd931d16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Materials/Plane.mat using Guid(90e4f2de9ae0a284ba2db9bdbd931d16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75454fa88cf8c5b3db16173031d75f48') in 0.0111193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Brake_B.fbx
+  artifactKey: Guid(2c6dd54e478e1d7479bf2d4f0d9722fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Brake_B.fbx using Guid(2c6dd54e478e1d7479bf2d4f0d9722fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48f4930eed14a22e7fed22168e0e5879') in 0.0173401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics/Optic_Pistol_A.fbx
+  artifactKey: Guid(a5127075e5b518740bd55a6a5b9e6e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics/Optic_Pistol_A.fbx using Guid(a5127075e5b518740bd55a6a5b9e6e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd83f79b579755207c5b30054ed16609') in 0.0174419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Low Poly Pistol Weapon Pack 2_URP.unitypackage
+  artifactKey: Guid(16e92c0097fe8c94bb146e8c41e5fcf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Low Poly Pistol Weapon Pack 2_URP.unitypackage using Guid(16e92c0097fe8c94bb146e8c41e5fcf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2da9b68f76839c3e3d880fdf9e14f081') in 0.0090101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics/Optic_Pistol_B.fbx
+  artifactKey: Guid(1fafffbda9d47704db959cf622b37ee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics/Optic_Pistol_B.fbx using Guid(1fafffbda9d47704db959cf622b37ee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d902ae0ab3a843198daeb9089844260') in 0.0158439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Rails/Rail_Pistol_B.prefab
+  artifactKey: Guid(303a928441e0a654992eaf77fbd5e708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Rails/Rail_Pistol_B.prefab using Guid(303a928441e0a654992eaf77fbd5e708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6400fdc2ef1122504fa276fe3173510') in 0.0113306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lights/Light_Pistol_A.prefab
+  artifactKey: Guid(bfe92a8d4bd5e6e42aa4ff02807c2744) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lights/Light_Pistol_A.prefab using Guid(bfe92a8d4bd5e6e42aa4ff02807c2744) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd039fb565d620ffecff5468039f6c10') in 0.0112619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lights
+  artifactKey: Guid(d2dcf5b0a779c4c4dbb368181062bb87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lights using Guid(d2dcf5b0a779c4c4dbb368181062bb87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3f02abd7ef2f0cdf33f38d11257daec') in 0.0083146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lights/Light_Pistol_B.fbx
+  artifactKey: Guid(94a9170c544c8ea47ad004db41966313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lights/Light_Pistol_B.fbx using Guid(94a9170c544c8ea47ad004db41966313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ec7eba10f708c5c6e711b3398cd9fe7') in 0.013749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_Pistol_A.prefab
+  artifactKey: Guid(fe26c32534725ea48bd1c95c2ed817b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_Pistol_A.prefab using Guid(fe26c32534725ea48bd1c95c2ed817b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21372a18b94b54239001e3ad94d05424') in 0.0114087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Rails/Rail_Pistol_A.fbx
+  artifactKey: Guid(f47b3e9480432794180fe8a36c0dad18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Rails/Rail_Pistol_A.fbx using Guid(f47b3e9480432794180fe8a36c0dad18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f29e824e5c51757e4272f4b7152079a4') in 0.0148914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Device.fbx
+  artifactKey: Guid(7676e7ab443a0c2438c06866d44f8d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Device.fbx using Guid(7676e7ab443a0c2438c06866d44f8d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb667217a6a8ff953d998440a1f45f5b') in 0.0141879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_Pistol_B.prefab
+  artifactKey: Guid(a99a91c656f15604ea6fbe40b537ba6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lasers/Laser_Pistol_B.prefab using Guid(a99a91c656f15604ea6fbe40b537ba6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd81664109cf6ba4f5547800828221822') in 0.0121163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lights/Light_Pistol_B.prefab
+  artifactKey: Guid(7da8dd2870b2133479c98fb1cf8523af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lights/Light_Pistol_B.prefab using Guid(7da8dd2870b2133479c98fb1cf8523af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '422301eefa018df9db1909f012b5b912') in 0.0115096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Weapons/Pistol_H.fbx
+  artifactKey: Guid(05f64eac0250c8240bdfef61de0d4574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Weapons/Pistol_H.fbx using Guid(05f64eac0250c8240bdfef61de0d4574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05f97bd79dce2b8e4612051c9470b23c') in 0.0169794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lasers/Laser_Pistol_B.fbx
+  artifactKey: Guid(39398a05729b5d34da5eec39cc566cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lasers/Laser_Pistol_B.fbx using Guid(39398a05729b5d34da5eec39cc566cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3aefa0ae7db50b6eebf821ee24fc7751') in 0.0141214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Muzzles/Muzzle_Pistol_Flash Hider_A.prefab
+  artifactKey: Guid(aa109b51d01b4864ea19ac0e47054473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Muzzles/Muzzle_Pistol_Flash Hider_A.prefab using Guid(aa109b51d01b4864ea19ac0e47054473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de36fff336acd93e317ca7322c314cc2') in 0.0123774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lasers/Laser_Pistol_A.fbx
+  artifactKey: Guid(ae7206865aee050478001a03a2532505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lasers/Laser_Pistol_A.fbx using Guid(ae7206865aee050478001a03a2532505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c23b56fe550cbd2f340e0125d1035cd9') in 0.015135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Muzzles/Muzzle_Pistol_Suppressor_B.prefab
+  artifactKey: Guid(843e95aa593749445b3803b30ef3c6ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Muzzles/Muzzle_Pistol_Suppressor_B.prefab using Guid(843e95aa593749445b3803b30ef3c6ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '947a352221312456c0ce0ed0234c4bee') in 0.011734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Weapons/Pistol_I.prefab
+  artifactKey: Guid(0fba1bca4a50c20469807a90556f21dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Weapons/Pistol_I.prefab using Guid(0fba1bca4a50c20469807a90556f21dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '723a52a1c5f2ef0385c0bb4ee109d0fa') in 0.0131392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lights/Light_Pistol_A.fbx
+  artifactKey: Guid(a68590e0c8717304ea244b08348f94a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lights/Light_Pistol_A.fbx using Guid(a68590e0c8717304ea244b08348f94a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc262a834368be65fba0955e48a68c04') in 0.0158308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Bullets/Bullet_Pistol_B.fbx
+  artifactKey: Guid(95bb259dfedd3554fb130beccb00f075) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Bullets/Bullet_Pistol_B.fbx using Guid(95bb259dfedd3554fb130beccb00f075) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eea66c6672264b314f613f3465e247de') in 0.0148697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics/Optic_Pistol_E.fbx
+  artifactKey: Guid(d4d93f758b3623e40a3b8fa5e903f2b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Optics/Optic_Pistol_E.fbx using Guid(d4d93f758b3623e40a3b8fa5e903f2b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ead0b3bbe1bf54aa5e6478575c6181bf') in 0.015003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lights
+  artifactKey: Guid(df9c995af9083964a8b3e59cee8c1770) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lights using Guid(df9c995af9083964a8b3e59cee8c1770) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60f9c0f51c556f1b2679ff8bacdcc3c0') in 0.009384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Weapons/Pistol_I.fbx
+  artifactKey: Guid(06880e6c7284f1e45abca2f82722d9e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Weapons/Pistol_I.fbx using Guid(06880e6c7284f1e45abca2f82722d9e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '069589054ad1b9805aa50369f498aa6c') in 0.0171845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Bullets
+  artifactKey: Guid(ad09d39102c3f84469a0e6ed19a8833e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Bullets using Guid(ad09d39102c3f84469a0e6ed19a8833e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0509c626bfc932673b40f1740c011b74') in 0.0089824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lasers
+  artifactKey: Guid(c9c4bb0c19b8867409090600416aec8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Accessories/Tatical Lasers using Guid(c9c4bb0c19b8867409090600416aec8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd4b307205e783b9f8f6520ffe3c873e') in 0.0094986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Brake_A.fbx
+  artifactKey: Guid(5d1185f2022b0b443ad3e0744a038f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Attachments/Muzzles/Muzzle_Pistol_Brake_A.fbx using Guid(5d1185f2022b0b443ad3e0744a038f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c42fa1607afb97b1d080ec02aba7b70') in 0.0155775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lasers
+  artifactKey: Guid(b6a0e932c01e9984b857e220e5c74081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Attachments/Accessories/Tatical Lasers using Guid(b6a0e932c01e9984b857e220e5c74081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af42d9a01eb457903786afd22f5b486f') in 0.00807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Bullets/Bullet_Pistol_C.prefab
+  artifactKey: Guid(218f9172d89a65e4086eb72dff56b317) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Prefabs/Bullets/Bullet_Pistol_C.prefab using Guid(218f9172d89a65e4086eb72dff56b317) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42aee4e0455462dc0df9fdcd029eaf09') in 0.0121753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Bullets/Bullet_Pistol_D.fbx
+  artifactKey: Guid(f941337ad7384d04da180e22291d0cae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Bullets/Bullet_Pistol_D.fbx using Guid(f941337ad7384d04da180e22291d0cae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fb6550c792629ce98ca522fad65ca60') in 0.0176297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.147334 seconds.
+  path: Assets/Low Poly Pistol Weapon Pack 2/Models/Weapons/Pistol_H.fbx
+  artifactKey: Guid(05f64eac0250c8240bdfef61de0d4574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Pistol Weapon Pack 2/Models/Weapons/Pistol_H.fbx using Guid(05f64eac0250c8240bdfef61de0d4574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82aa3564c0035616dce864bc987f0345') in 0.5289638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
