@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 01th (Interface)/Scenes/Class 01th (Interface).unity
+- path: Assets/Class 02th (Script)/Scenes/Class 02th (Script).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
