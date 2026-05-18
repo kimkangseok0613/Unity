@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 03th (User Interface)/Scenes/Class 03th (User Interface).unity
+- path: Assets/Class 04th (Animation)/Scenes/Class 04th (Animation).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
