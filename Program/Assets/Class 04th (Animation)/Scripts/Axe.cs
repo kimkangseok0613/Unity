@@ -2,12 +2,16 @@ using UnityEngine;
 
 public class Axe : MonoBehaviour
 {
+    public int strikes;
+    public float proficiency;
+
     public void Attack(int count)
     {
-        count++;
-        if(count>=10)
+        strikes += count;
+
+        if (strikes % 10 == 0)
         {
-            Debug.Log("Critical");
+            Debug.Log("Critical...");
         }
     }
 
@@ -16,8 +20,17 @@ public class Axe : MonoBehaviour
         Debug.Log("Defend");
     }
 
-    public void Throw(float a)
+    public void Throw(float experience)
     {
-        Debug.Log("Throw");
+        if(proficiency < 100)
+        {
+            proficiency += experience;
+
+            Debug.Log("Proficiency : " + proficiency + "%");
+        }
+        else
+        {
+            Debug.Log("I have Mastered the skill");
+        }
     }
 }
