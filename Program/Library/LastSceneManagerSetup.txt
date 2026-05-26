@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 05th (Animation Controller)/Scenes/Class 05th (Animation Controller).unity
+- path: Assets/Class 06th (Input System)/Scenes/Class 06th (Input System).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
