@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16094 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-27T11:45:15.5968473Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-27T11:45:15Z
+Date: 2026-05-28T11:08:35Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-28T11:08:35.4949962Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -15,23 +15,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
 -name
 AssetImportWorker11
 -projectPath
-C:/Users/Administrator/Desktop/Unity/Program
+C:/Users/User/Desktop/Unity/Program
 -logFile
 Logs/AssetImportWorker11.log
 -srvPort
-50322
+59870
 -licensingIpc
-LicenseClient-Administrator
+LicenseClient-User
 -job-worker-count
-13
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Administrator/Desktop/Unity/Program
-C:/Users/Administrator/Desktop/Unity/Program
+Successfully changed project path to: C:/Users/User/Desktop/Unity/Program
+C:/Users/User/Desktop/Unity/Program
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,13 +67,15 @@ C:/Users/Administrator/Desktop/Unity/Program
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [19424]  Target information:
+Player connection [3156]  Target information:
 
-Player connection [19424]  * "[IP] 192.168.0.38 [Port] 0 [Flags] 2 [Guid] 3287822883 [EditorId] 3287822883 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T679CQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3156]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 57555491 [EditorId] 57555491 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9G2NQRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19424] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19424] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 13
+Player connection [3156]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 57555491 [EditorId] 57555491 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9G2NQRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3156] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3156] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,45 +86,45 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/Unity/Program/Assets
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Unity/Program/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   NVIDIA
-    VRAM:     15962 MB
-    Driver:   32.0.15.7688
+    VRAM:     8018 MB
+    Driver:   32.0.15.9186
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002688 seconds.
+Registered in 0.004751 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
-[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-27T11:45:16.5487147Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16776, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.15" at "2026-05-28T11:08:36.9867164Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34500, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              022bcb0466914ba8b57965e791553a8e
-  Correlation Id:          6d43e25e015ae12bd078048c01a674f2
-  External correlation Id: 415133140799540284
-  Machine Id:              zh+5FITcPUnW+MXsE1JbpT1t6Jw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-27T11:45:16.5543322Z"
-[Licensing::Module] Licensing Background thread has ended after 0.96s
-- Loaded All Assemblies, in  0.453 seconds
+  Session Id:              bd5ea2d5612b4c3f9df11c88c63ccaf7
+  Correlation Id:          4e6380c663ed2fafd5c5f9020547c145
+  External correlation Id: 2487013248179715463
+  Machine Id:              eRBpBDHPyoUB8KnXL/IhcnMeJd4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.15-notifications" at "2026-05-28T11:08:37.0025926Z"
+[Licensing::Module] Licensing Background thread has ended after 1.51s
+- Loaded All Assemblies, in  0.764 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -130,35 +132,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.413 seconds
-Domain Reload Profiling: 863ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (333ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (138ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (313ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (179ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (211ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (413ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (454ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -169,71 +171,319 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 14568635345780-UnityPersXXXX
+  Id: 14569550976948-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.850 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.099 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.737 seconds
-Domain Reload Profiling: 1583ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1977ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (385ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (779ms)
+		LoadAssemblies (639ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (284ms)
-			TypeCache.Refresh (192ms)
-				TypeCache.ScanAssembly (172ms)
-			BuildScriptInfoCaches (79ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (737ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (891ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (537ms)
+		SetupLoadedEditorAssemblies (679ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (327ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6440 unused Assets / (4.1 MB). Loaded Objects now: 7235.
-Memory consumption went from 150.7 MB to 146.6 MB.
-Total: 8.664700 ms (FindLiveObjects: 0.848800 ms CreateObjectMapping: 0.350300 ms MarkObjects: 5.225300 ms  DeleteObjects: 2.239100 ms)
+Unloading 6440 unused Assets / (4.4 MB). Loaded Objects now: 7235.
+Memory consumption went from 151.5 MB to 147.1 MB.
+Total: 10.251900 ms (FindLiveObjects: 1.116100 ms CreateObjectMapping: 0.938400 ms MarkObjects: 5.414500 ms  DeleteObjects: 2.782200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3237.667481 seconds.
-  path: Assets/Class 06th (Input System)/Sky Boxes/Textures/SkyNoon_Bottom.png
-  artifactKey: Guid(ca936d5ad9282044293249963704b9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 06th (Input System)/Sky Boxes/Textures/SkyNoon_Bottom.png using Guid(ca936d5ad9282044293249963704b9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f3ad84c04b864280d01dd7e53e96dcc') in 0.065177 seconds
+  Time since last request: 14646.988190 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Box.prefab
+  artifactKey: Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Box.prefab using Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e1359690e143dfa188f7e765059d72') in 0.5106868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.644557 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_3dModel
+  artifactKey: Guid(55ae9ab2c2d3fc94f8503169b1a950d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_3dModel using Guid(55ae9ab2c2d3fc94f8503169b1a950d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '248c0b7183d7063e8219287e356bc734') in 0.0488318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_MetallicSmoothness.png
+  artifactKey: Guid(f1470148ee0919d4fba6794a79dbc5bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_MetallicSmoothness.png using Guid(f1470148ee0919d4fba6794a79dbc5bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84667d66b2433200668a568804a94d61') in 0.0951237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_NormalOpenGL.png
+  artifactKey: Guid(7e7ed80de04681047906e23ab6f9920f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_NormalOpenGL.png using Guid(7e7ed80de04681047906e23ab6f9920f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd733ca960156ef756ae76041de83abc3') in 0.0227626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Props_NormalOpenGL.png
+  artifactKey: Guid(1987b157c4b8c7344b9e5e1a0411c776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Props_NormalOpenGL.png using Guid(1987b157c4b8c7344b9e5e1a0411c776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bad6fd618889bebd238b21faa773fbf') in 0.0239817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_NormalOpenGL.png
+  artifactKey: Guid(e8c3ef8bf36e6e044a14397b9ac88fed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_NormalOpenGL.png using Guid(e8c3ef8bf36e6e044a14397b9ac88fed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc9c0583773ad87356700c8845e8e46e') in 0.0255474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_Mat.mat
+  artifactKey: Guid(243fa82a1adab5240902fdea0c1ab4e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_Mat.mat using Guid(243fa82a1adab5240902fdea0c1ab4e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e20ffd0a36b3d65280605f493a1058c0') in 0.0242951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.691569 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_Box.prefab
+  artifactKey: Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Ship/StylShip_Box.prefab using Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c893d32481603122fa6826e56038810') in 3.202331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035486 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_Mat.mat
+  artifactKey: Guid(11ee5cc31640def448487aaabfa5800d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_Mat.mat using Guid(11ee5cc31640def448487aaabfa5800d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '871577c63787669cbbc1ea0f2c616ffd') in 0.0389119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.431797 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_3dModel
+  artifactKey: Guid(55ae9ab2c2d3fc94f8503169b1a950d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Ship/StylShip_3dModel using Guid(55ae9ab2c2d3fc94f8503169b1a950d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d95a2fc40de2a7daae92e088efc0ce6') in 0.0004802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.447442 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Decks_AmbientOcclusion.png
+  artifactKey: Guid(0f93befbe8c87a744a60fb4d7662e0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Decks_AmbientOcclusion.png using Guid(0f93befbe8c87a744a60fb4d7662e0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a46173201123fe62e1c867f5e263c8d') in 0.0215379 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_NormalOpenGL.png
+  artifactKey: Guid(e8c3ef8bf36e6e044a14397b9ac88fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_NormalOpenGL.png using Guid(e8c3ef8bf36e6e044a14397b9ac88fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa8bc409a3e89e3268ec2ce91752219') in 0.0218435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_AmbientOcclusion.png
+  artifactKey: Guid(6365d8f3a78ccf0459a546bdd296dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_AmbientOcclusion.png using Guid(6365d8f3a78ccf0459a546bdd296dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dc503439b8c604c7527312e382ceff5') in 0.0145082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_NormalOpenGL.png
+  artifactKey: Guid(db91936847967464dad55e2292f0b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_NormalOpenGL.png using Guid(db91936847967464dad55e2292f0b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d052907bd843461c9aaf37337fd82fe') in 0.0148296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.343953 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_3dModel
+  artifactKey: Guid(55ae9ab2c2d3fc94f8503169b1a950d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_3dModel using Guid(55ae9ab2c2d3fc94f8503169b1a950d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbd5a82cb7c57b0e081111008260614f') in 0.0145655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Decks_AmbientOcclusion.png
+  artifactKey: Guid(0f93befbe8c87a744a60fb4d7662e0fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Decks_AmbientOcclusion.png using Guid(0f93befbe8c87a744a60fb4d7662e0fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7aac4dba813b33c386a7fb8766a2a320') in 0.0222419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_AlbedoTransparency.png
+  artifactKey: Guid(c5901344ad7bfce4898186d513501d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_AlbedoTransparency.png using Guid(c5901344ad7bfce4898186d513501d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffecf61821aaf1f839badd20f445672d') in 0.0205105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_AmbientOcclusion.png
+  artifactKey: Guid(9793c29d278aeb945bb9123be4b9b639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_AmbientOcclusion.png using Guid(9793c29d278aeb945bb9123be4b9b639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '248751c82ee3897fb7adf38c754e3e84') in 0.0226329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_AmbientOcclusion.png
+  artifactKey: Guid(203bf98a8199dd84999b47619e17724b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_AmbientOcclusion.png using Guid(203bf98a8199dd84999b47619e17724b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '461b7b2d21da3e716a70a6ba173aad37') in 0.0247631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_Barrel.prefab
+  artifactKey: Guid(7cfcb5999e6bea64ba94ad6d0123f2ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_Barrel.prefab using Guid(7cfcb5999e6bea64ba94ad6d0123f2ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14be88554a78a9a599199ece384f146f') in 0.0537963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.153262 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/Pirate Ship.prefab
+  artifactKey: Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/Pirate Ship.prefab using Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4854870b1e1121efd78c9ff3c43a6012') in 0.018518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 880.265263 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_Mat.mat
+  artifactKey: Guid(11ee5cc31640def448487aaabfa5800d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_Mat.mat using Guid(11ee5cc31640def448487aaabfa5800d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f29b96ef7039097b67b286f4e315006') in 0.0289891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Props_Mat.mat
+  artifactKey: Guid(a8ef3b2284aa46146a6f70f9215ff6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Props_Mat.mat using Guid(a8ef3b2284aa46146a6f70f9215ff6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20126e3f30a30b616f643485f8e38f01') in 0.0240196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 07th (Prefab System)/Random Textures/Render Texture.renderTexture
+  artifactKey: Guid(591465b65488f794a969e1aed950a607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Random Textures/Render Texture.renderTexture using Guid(591465b65488f794a969e1aed950a607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba63804dc50dee4132712441b20b878e') in 0.0258484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_Mat.mat
+  artifactKey: Guid(243fa82a1adab5240902fdea0c1ab4e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_Mat.mat using Guid(243fa82a1adab5240902fdea0c1ab4e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9134b682df46e28a39cbf6a6a687cc6f') in 0.0252554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.907 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1844ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6439 unused Assets / (4.7 MB). Loaded Objects now: 7287.
+Memory consumption went from 162.9 MB to 158.2 MB.
+Total: 11.327000 ms (FindLiveObjects: 0.918100 ms CreateObjectMapping: 1.415600 ms MarkObjects: 6.134800 ms  DeleteObjects: 2.857800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

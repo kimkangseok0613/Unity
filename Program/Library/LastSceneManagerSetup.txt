@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
+- path: Assets/Class 08th(Physics System)/Scenes/Class 08th(Physics System).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

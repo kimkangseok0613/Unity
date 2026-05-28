@@ -1,0 +1,362 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-28T12:28:37.0493645Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-28T12:28:37Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+C:/Users/User/Desktop/Unity/Program
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+59870
+-licensingIpc
+LicenseClient-User
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User/Desktop/Unity/Program
+C:/Users/User/Desktop/Unity/Program
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [26224]  Target information:
+
+Player connection [26224]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2675120594 [EditorId] 2675120594 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9G2NQRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26224]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2675120594 [EditorId] 2675120594 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9G2NQRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26224] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Unity/Program/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004911 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.15" at "2026-05-28T12:28:38.4419147Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34500, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              61090a54ef3c401280eebe3cc4c763c7
+  Correlation Id:          4e6380c663ed2fafd5c5f9020547c145
+  External correlation Id: 8431359694810277400
+  Machine Id:              eRBpBDHPyoUB8KnXL/IhcnMeJd4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.15-notifications" at "2026-05-28T12:28:38.4547506Z"
+[Licensing::Module] Licensing Background thread has ended after 1.41s
+- Loaded All Assemblies, in  0.709 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 1175ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (211ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569550976948-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.234 seconds
+Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.096 seconds
+Domain Reload Profiling: 2313ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (834ms)
+		LoadAssemblies (668ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (209ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1096ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (831ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (293ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6441 unused Assets / (5.2 MB). Loaded Objects now: 7235.
+Memory consumption went from 150.4 MB to 145.1 MB.
+Total: 12.749500 ms (FindLiveObjects: 0.757300 ms CreateObjectMapping: 1.165500 ms MarkObjects: 7.130200 ms  DeleteObjects: 3.696000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19439.893378 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Settings/Medium_PipelineAsset.asset
+  artifactKey: Guid(7f423b31b6934b349b3ab8d7c337eafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Settings/Medium_PipelineAsset.asset using Guid(7f423b31b6934b349b3ab8d7c337eafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b448b9c0452f7b386c40e1491a184566') in 0.0275333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.812844 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/Bounce.prefab
+  artifactKey: Guid(2420ab9f71fd6f446bafdfc9d0a0e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/Bounce.prefab using Guid(2420ab9f71fd6f446bafdfc9d0a0e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd42edfa5f5eb9eca02051e36ef6d0691') in 2.9265336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.118372 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Pipes/PipeTurnEnter.prefab
+  artifactKey: Guid(7d69e6a120539514eb707f274270f90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Pipes/PipeTurnEnter.prefab using Guid(7d69e6a120539514eb707f274270f90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1cdea0700925539784c80da3eead621') in 0.0122778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.860260 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90Curved.prefab
+  artifactKey: Guid(a9b0b7ce886a3094fb0fcc006f625e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90Curved.prefab using Guid(a9b0b7ce886a3094fb0fcc006f625e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a43359c66e2fc6e7142128a0571a871d') in 0.0177851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/D90Hole.prefab
+  artifactKey: Guid(d083cbe67f0707b4f839377875d4dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/D90Hole.prefab using Guid(d083cbe67f0707b4f839377875d4dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5187a44a2b51e5dff48cab6e0d026a8') in 0.0128553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Turn.prefab
+  artifactKey: Guid(1998c21e38ccd7c469ef87eb37027db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Turn.prefab using Guid(1998c21e38ccd7c469ef87eb37027db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49965da9448ff2dc3825f407a061ef00') in 0.019822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/SidesHazard.prefab
+  artifactKey: Guid(c515f3e5539b8884ea7f2e1a4d94a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/SidesHazard.prefab using Guid(c515f3e5539b8884ea7f2e1a4d94a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bb2e4c8dd6a31be233ed2772122c285') in 0.0158811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Cornerhole.prefab
+  artifactKey: Guid(2416362289f898b4c893c64eb9b92d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Cornerhole.prefab using Guid(2416362289f898b4c893c64eb9b92d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64b36ad37697f7f8a7e9bf49e48d3687') in 0.0187253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sides.prefab
+  artifactKey: Guid(07965f88790b1a1459b5f42b85a2d6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sides.prefab using Guid(07965f88790b1a1459b5f42b85a2d6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a8be36938f81373a5fd85ec63c4512') in 0.0157769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sideshole.prefab
+  artifactKey: Guid(bda3565a89cd92246bf155134b407f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sideshole.prefab using Guid(bda3565a89cd92246bf155134b407f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48ee8f925149b43a3b3a8a89ae3b32e7') in 0.0185758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/FullSquareHole.prefab
+  artifactKey: Guid(2ee6522565e79054186d969618184731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/FullSquareHole.prefab using Guid(2ee6522565e79054186d969618184731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeff74c1fccc3cd01c562fff053d0493') in 0.0253757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/RampFull.prefab
+  artifactKey: Guid(ab45800b9b57d094dbdd692b4b499369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/RampFull.prefab using Guid(ab45800b9b57d094dbdd692b4b499369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89a77c56332c03d90df8267d5aad9b23') in 0.0177542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/180hole.prefab
+  artifactKey: Guid(09f5b179f5cc1c34db8eb9ee2e815eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/180hole.prefab using Guid(09f5b179f5cc1c34db8eb9ee2e815eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0600483a6a4aeec726b40d025451ff65') in 0.0153981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Norails.prefab
+  artifactKey: Guid(0e5b43409606cc54c994716deef95891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Norails.prefab using Guid(0e5b43409606cc54c994716deef95891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a473638d68b7065a010fc5b979ce7477') in 0.016799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Turnhole.prefab
+  artifactKey: Guid(07c0ea4c363724b4c9be66e35eb2e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Turnhole.prefab using Guid(07c0ea4c363724b4c9be66e35eb2e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac6ce1edb0e295a4a58b6f073391102') in 0.0144444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/180.prefab
+  artifactKey: Guid(ff9a952a3dff05042977c0b29fb7ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/180.prefab using Guid(ff9a952a3dff05042977c0b29fb7ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aadb88fde46f6bcd56658b387f79a471') in 0.0125028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

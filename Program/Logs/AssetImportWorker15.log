@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16094 MB
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-28T12:28:37.0347944Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-27T12:13:08Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-27T12:13:08.1205622Z"
+Date: 2026-05-28T12:28:37Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -15,23 +15,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
 -name
 AssetImportWorker15
 -projectPath
-C:/Users/Administrator/Desktop/Unity/Program
+C:/Users/User/Desktop/Unity/Program
 -logFile
 Logs/AssetImportWorker15.log
 -srvPort
-50322
+59870
 -licensingIpc
-LicenseClient-Administrator
+LicenseClient-User
 -job-worker-count
-13
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Administrator/Desktop/Unity/Program
-C:/Users/Administrator/Desktop/Unity/Program
+Successfully changed project path to: C:/Users/User/Desktop/Unity/Program
+C:/Users/User/Desktop/Unity/Program
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,13 +67,15 @@ C:/Users/Administrator/Desktop/Unity/Program
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [15300]  Target information:
+Player connection [1928]  Target information:
 
-Player connection [15300]  * "[IP] 192.168.0.38 [Port] 0 [Flags] 2 [Guid] 491998435 [EditorId] 491998435 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T679CQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [1928]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 79882132 [EditorId] 79882132 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9G2NQRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15300] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15300] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 13
+Player connection [1928]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 79882132 [EditorId] 79882132 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9G2NQRC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,45 +86,45 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/Unity/Program/Assets
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Unity/Program/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   NVIDIA
-    VRAM:     15962 MB
-    Driver:   32.0.15.7688
+    VRAM:     8018 MB
+    Driver:   32.0.15.9186
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002213 seconds.
-- Loaded All Assemblies, in  0.495 seconds
+Registered in 0.004647 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
-[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-27T12:13:09.096147Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16776, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.15" at "2026-05-28T12:28:38.4009082Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34500, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              60b90a58f66b439495c840e6d57abf27
-  Correlation Id:          6d43e25e015ae12bd078048c01a674f2
-  External correlation Id: 4982641024467149896
-  Machine Id:              zh+5FITcPUnW+MXsE1JbpT1t6Jw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-27T12:13:09.1013259Z"
-[Licensing::Module] Licensing Background thread has ended after 0.98s
+  Session Id:              de4b5dfcd379426ea9cd82364187a6dd
+  Correlation Id:          4e6380c663ed2fafd5c5f9020547c145
+  External correlation Id: 3934294590159773554
+  Machine Id:              eRBpBDHPyoUB8KnXL/IhcnMeJd4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.15-notifications" at "2026-05-28T12:28:38.4159227Z"
+[Licensing::Module] Licensing Background thread has ended after 1.38s
+- Loaded All Assemblies, in  0.759 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -130,35 +132,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.400 seconds
-Domain Reload Profiling: 892ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (287ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (164ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (274ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (184ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (235ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (400ms)
+	FinalizeReload (473ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (350ms)
+		SetupLoadedEditorAssemblies (414ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -169,492 +171,280 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 14568635345780-UnityPersXXXX
+  Id: 14569550976948-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.847 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.248 seconds
+Refreshing native plugins compatible for Editor in 4.05 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.740 seconds
-Domain Reload Profiling: 1581ms
-	BeginReloadAssembly (188ms)
+- Finished resetting the current domain, in  1.104 seconds
+Domain Reload Profiling: 2335ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (560ms)
-		LoadAssemblies (389ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (854ms)
+		LoadAssemblies (681ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (277ms)
-			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (203ms)
 			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (740ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1105ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
+		SetupLoadedEditorAssemblies (847ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (293ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6440 unused Assets / (2.9 MB). Loaded Objects now: 7235.
-Memory consumption went from 148.7 MB to 145.9 MB.
-Total: 16.268400 ms (FindLiveObjects: 0.892900 ms CreateObjectMapping: 0.401200 ms MarkObjects: 13.028000 ms  DeleteObjects: 1.945000 ms)
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6441 unused Assets / (4.8 MB). Loaded Objects now: 7235.
+Memory consumption went from 148.4 MB to 143.5 MB.
+Total: 15.366800 ms (FindLiveObjects: 1.507600 ms CreateObjectMapping: 1.528800 ms MarkObjects: 8.977100 ms  DeleteObjects: 3.352200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4909.505959 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI
-  artifactKey: Guid(20b4df8d0bbcc1f42a08317937ccd407) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI using Guid(20b4df8d0bbcc1f42a08317937ccd407) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd7759c84f210e4f00a63f72e836d7ec') in 0.0526884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 19437.616165 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Models/Flag.fbx
+  artifactKey: Guid(a2b6d7db40c528645ad58b192365393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Models/Flag.fbx using Guid(a2b6d7db40c528645ad58b192365393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53e1626b10d34508689dc04e82f1098f') in 0.4922534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/Sprites/UI_Atlas_Stars 2.png
-  artifactKey: Guid(707910ade9de8bd4eb6559ed557298a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/Sprites/UI_Atlas_Stars 2.png using Guid(707910ade9de8bd4eb6559ed557298a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bca92a76c2231e796b7e5b6aaadedd19') in 0.0993444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_MainMenu 1.png
-  artifactKey: Guid(deb15fd2874e4f745ae65def34583836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_MainMenu 1.png using Guid(deb15fd2874e4f745ae65def34583836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47e4ce5a456d513e1581a84009514d10') in 0.0506376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_Buttons_Wood.png
-  artifactKey: Guid(de7952b219cb3be419838e6b614527bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_Buttons_Wood.png using Guid(de7952b219cb3be419838e6b614527bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13388dc176c6874f589304b14dbb110d') in 0.020246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.386740 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI
-  artifactKey: Guid(20b4df8d0bbcc1f42a08317937ccd407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI using Guid(20b4df8d0bbcc1f42a08317937ccd407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7476ea9a964a642dd9419c2194ff56e2') in 0.0005126 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.100625 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/Sprites
-  artifactKey: Guid(8499da3373c764144beb086123815ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/Sprites using Guid(8499da3373c764144beb086123815ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcb2574aa1a3bec79129e4f8d2d16842') in 0.00048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072485 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/Sprites/UI_Atlas_LevelButtons_01_10.png
-  artifactKey: Guid(246256c090b0a1249b6ccbd493f4abb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/Sprites/UI_Atlas_LevelButtons_01_10.png using Guid(246256c090b0a1249b6ccbd493f4abb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dae9574672bd7194d99271ed25b33dc') in 0.0985124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.265447 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/Background/BG_1.2.png
-  artifactKey: Guid(2dabf78d14fd4e74da4b37231f0bda27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/Background/BG_1.2.png using Guid(2dabf78d14fd4e74da4b37231f0bda27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85f252bfcba06389157ee36113847299') in 0.0182046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.295692 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/UZ/Chest_Open_Gold.png
-  artifactKey: Guid(80eaf9833b847cb4fa85fb547912c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/UZ/Chest_Open_Gold.png using Guid(80eaf9833b847cb4fa85fb547912c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbe644a3e7a691742b1b85648ed4273f') in 0.0432996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_PageIndicators.png
-  artifactKey: Guid(1c96c765e91bb7f4db833e266c33ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_PageIndicators.png using Guid(1c96c765e91bb7f4db833e266c33ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ef7448d7919020a0dd6dc95311417a') in 0.0189475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_Settings.png
-  artifactKey: Guid(465a2f33d6b3f374399b7534e4fc8462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/MainMenuUI/UZ/UI_Atlas_Settings.png using Guid(465a2f33d6b3f374399b7534e4fc8462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb5f3c0dcd07e0be51d3906f3a933321') in 0.0517915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.709455 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu
-  artifactKey: Guid(20b4df8d0bbcc1f42a08317937ccd407) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu using Guid(20b4df8d0bbcc1f42a08317937ccd407) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b07821a0f2e4a5a35cfab86054ecc232') in 0.0107381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/UZ/UI_Atlas_Popups.png
-  artifactKey: Guid(99c604cbcd34c5940a41ccc8284a6a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/UZ/UI_Atlas_Popups.png using Guid(99c604cbcd34c5940a41ccc8284a6a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3aaf44553ab7cf506736d5d3496c8599') in 0.0182847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/UZ/Chest_Open_Gold.png
-  artifactKey: Guid(80eaf9833b847cb4fa85fb547912c346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/UZ/Chest_Open_Gold.png using Guid(80eaf9833b847cb4fa85fb547912c346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdc61cc4e47b833ff767a70fbf99a968') in 0.0191348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 1.721968 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Settings/High_PipelineAsset.asset
+  artifactKey: Guid(cf2a1487d1e296942a7b33275e718201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Settings/High_PipelineAsset.asset using Guid(cf2a1487d1e296942a7b33275e718201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28bf6608edce155e7d8a46bb30cfb586') in 0.0031505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/Background/BG_3.1.png
-  artifactKey: Guid(e6f6bcb3c0ea0104083f174d2dcb1ea7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/Background/BG_3.1.png using Guid(e6f6bcb3c0ea0104083f174d2dcb1ea7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3359bda3ba00a438e915284a6aa49f28') in 0.0153963 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Class 08th(Physics System)/Golf Assets/Settings/Very High_PipelineAsset.asset
+  artifactKey: Guid(e23d6755c8fd37f498d8d3d5d2a2d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Settings/Very High_PipelineAsset.asset using Guid(e23d6755c8fd37f498d8d3d5d2a2d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c93d803352ef9040fa54bceab6000414') in 0.0026641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/UZ/UI_Atlas_Shop.png
-  artifactKey: Guid(c991cc89d4f03b8458407b051102f6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/UZ/UI_Atlas_Shop.png using Guid(c991cc89d4f03b8458407b051102f6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9605320633752742f26060e417e7db67') in 0.0173871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 9.097561 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bg/SkySphere.prefab
+  artifactKey: Guid(d1494f85c99b0d9428842d0d78f4051a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bg/SkySphere.prefab using Guid(d1494f85c99b0d9428842d0d78f4051a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e8e8d7d179b6b42b9cd6d4abdb1f9f7') in 0.2822749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.123595 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/Sprites/UI_Atlas_Buttons_Wood.png
-  artifactKey: Guid(de7952b219cb3be419838e6b614527bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/Sprites/UI_Atlas_Buttons_Wood.png using Guid(de7952b219cb3be419838e6b614527bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7315435816f76552cd0fb091ee62a44e') in 0.0174807 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 1.887660 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bg/Clouds/CloudChunk.prefab
+  artifactKey: Guid(fa6a77f3d867bed4cbcc7508bbd7378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bg/Clouds/CloudChunk.prefab using Guid(fa6a77f3d867bed4cbcc7508bbd7378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aca8390c08b928b58653292d54c8995') in 0.3197498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/Sprites/UI_Atlas_PageIndicators.png
-  artifactKey: Guid(1c96c765e91bb7f4db833e266c33ebbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/Sprites/UI_Atlas_PageIndicators.png using Guid(1c96c765e91bb7f4db833e266c33ebbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccc916881fdce594cead55fff7e12a88') in 0.0163173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.438032 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bumpers/Bumper.prefab
+  artifactKey: Guid(a65279c4fad7ab448813d9e259e9a3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bumpers/Bumper.prefab using Guid(a65279c4fad7ab448813d9e259e9a3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b3e3be35825b28a3fb59b31dfb033b7') in 0.0170902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.429630 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Characters/FrogPortalEnterHold.prefab
+  artifactKey: Guid(f5692bb23a87000468eb6fe2d283475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Characters/FrogPortalEnterHold.prefab using Guid(f5692bb23a87000468eb6fe2d283475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '905c72814e6ff13a6296d9420301891a') in 1.6916042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Side.prefab
+  artifactKey: Guid(c703067f8537c10458b2b6e226eda9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Side.prefab using Guid(c703067f8537c10458b2b6e226eda9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa0fe3ab999c108c56315aacb250e447') in 0.0281276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/D90Hole.prefab
+  artifactKey: Guid(d083cbe67f0707b4f839377875d4dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/D90Hole.prefab using Guid(d083cbe67f0707b4f839377875d4dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2c45120047e6967cd9b5439113027d6') in 0.0267552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Class 07th (Prefab System)/MainMenu/Sprites/UI_Panel_Wood.png
-  artifactKey: Guid(ba9d2a0c0a82a9f4ab27a9849aea6433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/MainMenu/Sprites/UI_Panel_Wood.png using Guid(ba9d2a0c0a82a9f4ab27a9849aea6433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '905b4439ea888c1dcee7d1014a4c6fb9') in 0.0142364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.892184 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs
-  artifactKey: Guid(c09a1aef0fb1b164b9915daf885e8332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs using Guid(c09a1aef0fb1b164b9915daf885e8332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f375b363328bed77caf4e3a9fc4396') in 0.0007964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.947049 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs
-  artifactKey: Guid(c09a1aef0fb1b164b9915daf885e8332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs using Guid(c09a1aef0fb1b164b9915daf885e8332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b06a1ca95b2f9861171e3c9273cc158b') in 0.007095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.534982 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb4b6fe2c1d6f4effed93b5ec18ade1e') in 0.0131301 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.927197 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a86b395db829a7fdb693f065403fcd0e') in 0.0456975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 194.194547 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'febdde939358d139e9c8c40383491ac4') in 0.0084755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.170026 seconds.
-  path: Assets/Class 03th (User Interface)/Scenes/Class 03th (User Interface).unity
-  artifactKey: Guid(0e806e0f125865945b806567320ed78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 03th (User Interface)/Scenes/Class 03th (User Interface).unity using Guid(0e806e0f125865945b806567320ed78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ab0f0c1a8ebf55a48c2cb0e8ace889') in 0.0005241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.187676 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2626b655341d7221b5b7e89e9ef21ce4') in 0.0005264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.446325 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a25b25e423f294e58e184389332d9620') in 0.0076821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.268047 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4ba21388b09cc3660cd20e7d3dd6665') in 0.000516 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.254352 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd41191d97666aea93bdc2e05e1c2235c') in 0.0079372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.554066 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3f1f477cea7109a0f0fb641299d3a1a') in 0.0005814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.886249 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7b33c4ac831dbfa9142c22661c7a47d') in 0.010006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.996773 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '809caacab7f181090943971f6fe43c87') in 0.0006023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 434.571045 seconds.
-  path: Assets/Class 06th (Input System)/Free Aircraft Pack/Materials/Blue2D4D51.mat
-  artifactKey: Guid(b7e405ce1ece92843a6946fc236cf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 06th (Input System)/Free Aircraft Pack/Materials/Blue2D4D51.mat using Guid(b7e405ce1ece92843a6946fc236cf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f3d6b7ab482c4ae4565fd63cb70d400') in 0.4289589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.701197 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcf43328a6f0e17e0a4890f9878c21e0') in 0.0131174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.699109 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc060f9af3bdd0b967cbac5005dfb0ba') in 0.0119868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.343867 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc84996465f5b3b404913cd75167b778') in 0.0085707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.469888 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59ba620baacbc33e3ca0cb543a8b2267') in 0.001948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.507283 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b554532203238bfb104ad50a8c166d') in 0.0019293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.951429 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c87335f350135110dbd1ddb70a201a2') in 0.0117098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.843661 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4576e362262febc24bddd1ffdfda4b3d') in 0.0019184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.955377 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd23a69ec8fbed53b9fddb70238fec215') in 0.0146736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.276809 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3ef080ee9900ee16cef2c8e6119d9f8') in 0.0085474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.772505 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3966b905dbb538245d2c6763450ba412') in 0.0019073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.956120 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d035637b852b648839f7b3c387c75f6') in 0.0138746 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.599950 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed214c7d3efc7d71fdb7e1d298a13975') in 0.0020125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.950286 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20671976fb56bd2affa9464580389e29') in 0.0109226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.179572 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd699765a47d0416093aafa6080adf3') in 0.0019835 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.952773 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfe0fed0af8c576180119bae0c32d8eb') in 0.011245 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.174715 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5047b43439eddd535bb29cfb756a0c6') in 0.0020394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.393223 seconds.
-  path: Assets/Class 07th (Prefab System)/Prefabs/Button.prefab
-  artifactKey: Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Prefabs/Button.prefab using Guid(70727227bc7698d408202501b6368b9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d82da299d4b6b211b934d2c48ba7ff6') in 0.0110658 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.675796 seconds.
-  path: Assets/Class 06th (Input System)/Free Aircraft Pack/Models/aircraft-A-A.fbx
-  artifactKey: Guid(c98e3e55370b6eb4baa9896fa03e8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 06th (Input System)/Free Aircraft Pack/Models/aircraft-A-A.fbx using Guid(c98e3e55370b6eb4baa9896fa03e8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf0cc608eaf991f46e1c3c2a8ae07a39') in 0.246184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Class 06th (Input System)/Free Aircraft Pack/Models/Cloud-A.fbx
-  artifactKey: Guid(fd368be74e0578d4a839c32767696a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 06th (Input System)/Free Aircraft Pack/Models/Cloud-A.fbx using Guid(fd368be74e0578d4a839c32767696a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d7dcc405b4e9b0cfaead5a764b3508') in 0.0133982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/DownHill.prefab
+  artifactKey: Guid(1e34f523c11fe4a4dbff9e801a5fecf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/DownHill.prefab using Guid(1e34f523c11fe4a4dbff9e801a5fecf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5988af9705131c5800d08107d8231e9a') in 0.0209455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Class 06th (Input System)/Free Aircraft Pack/Prefabs/Cloud-B.prefab
-  artifactKey: Guid(943371a1cf38ce14fbe0206f3619d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 06th (Input System)/Free Aircraft Pack/Prefabs/Cloud-B.prefab using Guid(943371a1cf38ce14fbe0206f3619d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c428dad31a0e80f133ec3e0b32e99dd') in 0.0105923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Endhole.prefab
+  artifactKey: Guid(ad6c6fd7e14427047823a5d2f14b53c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Endhole.prefab using Guid(ad6c6fd7e14427047823a5d2f14b53c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1118d712c55b53b99175cc9b9be76c5a') in 0.0200585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.188539 seconds.
-  path: Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity
-  artifactKey: Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Scenes/Class 07th (Prefab System).unity using Guid(fd2a2603c55972b43b4a97ded1306715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92dda0cdc00132e4ab7f919881459763') in 0.0083054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000036 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/RampSide.prefab
+  artifactKey: Guid(b5a8bbc509d04d84ca618cadf1c51bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/RampSide.prefab using Guid(b5a8bbc509d04d84ca618cadf1c51bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f3a89c790cf59caf5e93efc195c56e8') in 0.0196441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/EdgeBit.prefab
+  artifactKey: Guid(59f5299e0015f584ba8da3c25dabad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/EdgeBit.prefab using Guid(59f5299e0015f584ba8da3c25dabad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93163b9824780f35212faa3df4f8a0fd') in 0.024715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/PoweUpBox.prefab
+  artifactKey: Guid(14604b418a7b37d4898f571207b5ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/PoweUpBox.prefab using Guid(14604b418a7b37d4898f571207b5ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed9dc205dc2ea4c6afcffb4e28390088') in 2.089926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.698406 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Pipes/PipeAnimation.prefab
+  artifactKey: Guid(fc0ff4040bc4333418fb51ffd12f6f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Pipes/PipeAnimation.prefab using Guid(fc0ff4040bc4333418fb51ffd12f6f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2968fc97316c38ef5ba2e0632d7a46a9') in 0.0122774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.859208 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90.prefab
+  artifactKey: Guid(6444a16b561214f4b8f98c4bed00d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90.prefab using Guid(6444a16b561214f4b8f98c4bed00d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1bac2bf0d77d907cb773d5de2a5d663') in 0.0161572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Corner.prefab
+  artifactKey: Guid(19823bec1d1f4774991c51230a3d2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Corner.prefab using Guid(19823bec1d1f4774991c51230a3d2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8a97ae5a54f8f53065e5ba94166423') in 0.0118952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Side.prefab
+  artifactKey: Guid(c703067f8537c10458b2b6e226eda9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Side.prefab using Guid(c703067f8537c10458b2b6e226eda9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c36b5f3ebe1f96effc614ea7281d28c') in 0.0196944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sidehole.prefab
+  artifactKey: Guid(8727499c941e7a74485799a892048acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sidehole.prefab using Guid(8727499c941e7a74485799a892048acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '635a98099e706995d1aae1e78db09d5b') in 0.0149277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/DownHill.prefab
+  artifactKey: Guid(1e34f523c11fe4a4dbff9e801a5fecf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/DownHill.prefab using Guid(1e34f523c11fe4a4dbff9e801a5fecf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6949e8095d8038b31347bdd48e539578') in 0.0174691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Endhole.prefab
+  artifactKey: Guid(ad6c6fd7e14427047823a5d2f14b53c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Endhole.prefab using Guid(ad6c6fd7e14427047823a5d2f14b53c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dad89a408aa739a107a80d8d30b121c') in 0.0176687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/FullSquare.prefab
+  artifactKey: Guid(dda27e2aa31614444b81737908e61659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/FullSquare.prefab using Guid(dda27e2aa31614444b81737908e61659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '526813509835001f0c42d3881bb3065c') in 0.0289729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/RampSide.prefab
+  artifactKey: Guid(b5a8bbc509d04d84ca618cadf1c51bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/RampSide.prefab using Guid(b5a8bbc509d04d84ca618cadf1c51bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d5bd94e92e2c8a64f82a740cf65ad6d') in 0.0138748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/EdgeBit.prefab
+  artifactKey: Guid(59f5299e0015f584ba8da3c25dabad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/EdgeBit.prefab using Guid(59f5299e0015f584ba8da3c25dabad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d967d78947342f323728569e08cf44a') in 0.0172906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/UpHill.prefab
+  artifactKey: Guid(e8999d269ed7b3e47b048c17f4115ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/UpHill.prefab using Guid(e8999d269ed7b3e47b048c17f4115ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71bd920cf2262a62bd23cb0889d0b038') in 0.0173526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/End.prefab
+  artifactKey: Guid(04b8659cad704624588994bd97ac4637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/End.prefab using Guid(04b8659cad704624588994bd97ac4637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a13b9a5140222b555f5f406ea566f7e') in 0.0143565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90hole.prefab
+  artifactKey: Guid(a1cda437413b1434ba7f0f45169c0a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90hole.prefab using Guid(a1cda437413b1434ba7f0f45169c0a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b38af3635e277551d7c7d85c30ec12e') in 0.0145693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
