@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639156491189638930
+      ticks: 639159079052671105
     m_Hash: 3855651624
   m_LockFileStatus:
     m_FilePath: C:/Users/Administrator/Desktop/Unity/Program/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639156491189638930
+      ticks: 639159079052671105
     m_Hash: 4103607915
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -5997,10 +5997,12 @@ m_ResolvedPackages:
     - 2.6.4
     - 2.6.5
     - 2.6.6
+    - 2.6.7
     compatible:
     - 2.6.5
     - 2.6.6
-    recommended: 2.6.6
+    - 2.6.7
+    recommended: 2.6.7
     deprecated: []
   dependencies:
   - name: com.unity.burst

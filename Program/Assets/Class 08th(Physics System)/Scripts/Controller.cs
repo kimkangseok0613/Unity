@@ -1,13 +1,19 @@
+using Unity.VisualScripting;
+using Unity.XR.Oculus.Input;
 using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    [SerializeField] float speed;
+    [SerializeField] float force;
     [SerializeField] Vector3 direction;
-    [SerializeField] Rigidbody Rigidbody;
+    [SerializeField] Rigidbody rigidbody;
+    [SerializeField] ForceMode forceMode;
+
     void Start()
     {
-        Rigidbody = GetComponent<Rigidbody>();
+        force = 10;
+        forceMode = ForceMode.Force;
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -35,6 +41,34 @@ public class Controller : MonoBehaviour
         // 무게(m)와 시간(t)을 모두 무시하며, 입력한 벡터 값 자체가 객체의 다음
         // 프레임 속도 변화량이 됩니다.
 
-        Rigidbody.AddForce(direction * speed, ForceMode.Force);
+        if (forceMode == ForceMode.Impulse)
+        {
+            rigidbody.AddForce(Vector3.up * force, ForceMode.Impulse);
+
+            forceMode = ForceMode.Force;
+
+            return;
+        }
+
+        rigidbody.AddForce(direction * force, forceMode);
+    }
+    public void Soar()
+    {
+        forceMode = ForceMode.Impulse;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Barrier"))
+        {
+            Debug.Log("OnCollisionEnter");
+        }
+    }
+    private void OnCollisionStay(Collision collision)
+    {
+        Debug.Log("OnCollisionStay");
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        Debug.Log("OnCollisionExit");
     }
 }
