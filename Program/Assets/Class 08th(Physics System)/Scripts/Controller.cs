@@ -6,14 +6,14 @@ public class Controller : MonoBehaviour
 {
     [SerializeField] float force;
     [SerializeField] Vector3 direction;
-    [SerializeField] Rigidbody rigidbody;
+    [SerializeField] Rigidbody Rigidbody;
     [SerializeField] ForceMode forceMode;
 
     void Start()
     {
         force = 10;
         forceMode = ForceMode.Force;
-        rigidbody = GetComponent<Rigidbody>();
+        Rigidbody = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -43,14 +43,14 @@ public class Controller : MonoBehaviour
 
         if (forceMode == ForceMode.Impulse)
         {
-            rigidbody.AddForce(Vector3.up * force, ForceMode.Impulse);
+            Rigidbody.AddForce(Vector3.up * force, ForceMode.Impulse);
 
             forceMode = ForceMode.Force;
 
             return;
         }
 
-        rigidbody.AddForce(direction * force, forceMode);
+        Rigidbody.AddForce(direction * force, forceMode);
     }
     public void Soar()
     {
@@ -65,7 +65,10 @@ public class Controller : MonoBehaviour
     }
     private void OnCollisionStay(Collision collision)
     {
-        Debug.Log("OnCollisionStay");
+        if (collision.gameObject.CompareTag("Barrier"))
+        {
+            Debug.Log("OnCollisionStay");
+        }
     }
     private void OnCollisionExit(Collision collision)
     {

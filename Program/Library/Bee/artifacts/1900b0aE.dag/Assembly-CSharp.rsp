@@ -462,6 +462,7 @@
 "Assets/Class 06th (Input System)/Scripts/Character.cs"
 "Assets/Class 08th(Physics System)/Scripts/Controller.cs"
 "Assets/Class 08th(Physics System)/Scripts/Sensor.cs"
+"Assets/Class 09th (Coroutine)/Scripts/CreateManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16094 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-29T11:01:50.2475928Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-06-01T10:53:45.5871147Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-29T11:01:50Z
+Date: 2026-06-01T10:53:45Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Administrator/Desktop/Unity/Program
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-49875
+50060
 -licensingIpc
 LicenseClient-Administrator
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/Administrator/Desktop/Unity/Program
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [13420]  Target information:
+Player connection [16256]  Target information:
 
-Player connection [13420]  * "[IP] 192.168.0.213 [Port] 0 [Flags] 2 [Guid] 3069761332 [EditorId] 3069761332 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T679CQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16256]  * "[IP] 192.168.0.213 [Port] 0 [Flags] 2 [Guid] 780861675 [EditorId] 780861675 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T679CQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13420] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13420] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16256] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -100,65 +100,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002194 seconds.
-- Loaded All Assemblies, in  0.436 seconds
-Native extension for WindowsStandalone target not found
+Registered in 0.003913 seconds.
+- Loaded All Assemblies, in  0.568 seconds
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
 [Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-29T11:01:51.3611341Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7372, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-06-01T10:53:46.6645584Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8048, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              5be2e59b0b5743a2816ad5c2cf1a8193
-  Correlation Id:          c0423a8f097690ed45d81e6df7e33775
-  External correlation Id: 6119921914640226361
+  Session Id:              20b420fddb8e42dbb9d0519fe0449d7d
+  Correlation Id:          af6bfc7b40ad433966604737314fa49e
+  External correlation Id: 7591206930413715897
   Machine Id:              zh+5FITcPUnW+MXsE1JbpT1t6Jw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-29T11:01:51.3675333Z"
-[Licensing::Module] Licensing Background thread has ended after 1.12s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.01s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-06-01T10:53:46.6702747Z"
+[Licensing::Module] Licensing Background thread has ended after 1.08s
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.492 seconds
-Domain Reload Profiling: 925ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 995ms
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (99ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (187ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (217ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (197ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (226ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (492ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (429ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
+		SetupLoadedEditorAssemblies (386ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (61ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (161ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -169,638 +169,118 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 14568635345780-UnityPersXXXX
+  Id: 14569550976948-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.041 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.955 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.911 seconds
-Domain Reload Profiling: 1947ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1746ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (691ms)
-		LoadAssemblies (481ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (634ms)
+		LoadAssemblies (443ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (347ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (212ms)
-			BuildScriptInfoCaches (95ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (911ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (180ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (796ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (672ms)
+		SetupLoadedEditorAssemblies (579ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6442 unused Assets / (3.7 MB). Loaded Objects now: 7236.
-Memory consumption went from 149.4 MB to 145.7 MB.
-Total: 6.551400 ms (FindLiveObjects: 0.503900 ms CreateObjectMapping: 0.279800 ms MarkObjects: 4.224500 ms  DeleteObjects: 1.542500 ms)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6442 unused Assets / (2.8 MB). Loaded Objects now: 7237.
+Memory consumption went from 148.8 MB to 146.0 MB.
+Total: 9.528100 ms (FindLiveObjects: 1.032200 ms CreateObjectMapping: 0.391900 ms MarkObjects: 5.896900 ms  DeleteObjects: 2.205700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 334.282285 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/FrogPortals/1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(a4a9a903ba73968448238c92292c507b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/FrogPortals/1_DefaultMaterial_AlbedoTransparency.png using Guid(a4a9a903ba73968448238c92292c507b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4aa4939f35c5bd9bc0358f975b6eea15') in 0.3088581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Models/Interactable/Boost.fbx
-  artifactKey: Guid(fda68674789605a40a1b624c3a4a094e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Models/Interactable/Boost.fbx using Guid(fda68674789605a40a1b624c3a4a094e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ecf50e0830f53c8675a60a1e7b163ea') in 0.1684869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/WindMill/1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(4f8656a55c164514da21b02d91a8300d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/WindMill/1_DefaultMaterial_AlbedoTransparency.png using Guid(4f8656a55c164514da21b02d91a8300d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed545d9f3003385b491184a00b329b25') in 0.0359369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/UpHill.prefab
-  artifactKey: Guid(e8999d269ed7b3e47b048c17f4115ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/UpHill.prefab using Guid(e8999d269ed7b3e47b048c17f4115ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87ca686169fe7530dec3f4053ad4017b') in 0.0312581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sidehole.prefab
-  artifactKey: Guid(8727499c941e7a74485799a892048acc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sidehole.prefab using Guid(8727499c941e7a74485799a892048acc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '613d30adcba8981b8f323d7917989336') in 0.0312036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/colorpicker.png
-  artifactKey: Guid(ca64eab41e97d7c4dac2dc911b77bee8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/colorpicker.png using Guid(ca64eab41e97d7c4dac2dc911b77bee8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e46767a4aa6ff8f5709901f13813bd8') in 0.0361838 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/CheckerSmall.png
-  artifactKey: Guid(8f5d3c639e3be824dbfcbe027f51f0f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/CheckerSmall.png using Guid(8f5d3c639e3be824dbfcbe027f51f0f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdd80732ff7906535463344157dc77ed') in 0.0609469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_NormalOpenGL.png
-  artifactKey: Guid(3a80cada5f0251d4d936ff2605a71c16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_NormalOpenGL.png using Guid(3a80cada5f0251d4d936ff2605a71c16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd3ce25fe3ebf770393106694e84be2c') in 0.0352211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_Cannon.prefab
-  artifactKey: Guid(78a33966cc5639b4387c905a99a39d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_Cannon.prefab using Guid(78a33966cc5639b4387c905a99a39d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4dadaccfc6a98842aa08274ffa478e88') in 0.0243969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Materials/Cosmetics/Wood.mat
-  artifactKey: Guid(3a759a4e9e7bd934c900202c84f84d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Materials/Cosmetics/Wood.mat using Guid(3a759a4e9e7bd934c900202c84f84d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '798f68c874619f5a3cef36df77350310') in 0.0532922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Materials/Cosmetics/BasketBall.mat
-  artifactKey: Guid(8059fe61d5ebd844a90dcb24d96db4fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Materials/Cosmetics/BasketBall.mat using Guid(8059fe61d5ebd844a90dcb24d96db4fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '941c47b1ed2b8bcfa3128297919be53b') in 0.0370139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(9e90a845c14752d4fb6d5fa756814bc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset using Guid(9e90a845c14752d4fb6d5fa756814bc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de5fc711e01c11375ab21b0a0774b0ff') in 0.0859493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Turnhole.prefab
-  artifactKey: Guid(07c0ea4c363724b4c9be66e35eb2e9f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Turnhole.prefab using Guid(07c0ea4c363724b4c9be66e35eb2e9f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6081ba48e2bf4d49038aa06a7bc9e087') in 0.0461852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Renderer_Renderer.asset
-  artifactKey: Guid(d416008ef127c134e816a1e88fd31f71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Renderer_Renderer.asset using Guid(d416008ef127c134e816a1e88fd31f71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77611daa0603fd30481fb7f39e9ef28c') in 0.0284758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sideshole.prefab
-  artifactKey: Guid(bda3565a89cd92246bf155134b407f2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/Sideshole.prefab using Guid(bda3565a89cd92246bf155134b407f2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e9b71fb2d3821cd901baa4e4ea5789d') in 0.0585766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Settings/Very Low_PipelineAsset.asset
-  artifactKey: Guid(3b8ab573f4230de4b9eeb5fec77e169c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Settings/Very Low_PipelineAsset.asset using Guid(3b8ab573f4230de4b9eeb5fec77e169c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a383881ca5b12e4c57756302cdba6b03') in 0.0971563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Decks_AmbientOcclusion.png
-  artifactKey: Guid(0f93befbe8c87a744a60fb4d7662e0fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Decks_AmbientOcclusion.png using Guid(0f93befbe8c87a744a60fb4d7662e0fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9457cdd1718b694e92f8a83256a3a50a') in 0.0385927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Characters/FrogPortalExit.prefab
-  artifactKey: Guid(dbddbe7c5a2a45c479de1bfff3331760) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Characters/FrogPortalExit.prefab using Guid(dbddbe7c5a2a45c479de1bfff3331760) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcd819c35f2aa5571932847839ae165b') in 0.0366126 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Animations/HammerSwing.anim
-  artifactKey: Guid(51c792a30e7d08f4e827c11244ae38eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Animations/HammerSwing.anim using Guid(51c792a30e7d08f4e827c11244ae38eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '548eda1b694a543f99c1ff5041a9e8d1') in 0.0205393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Renderer.asset
-  artifactKey: Guid(a3c69f300d0aecf438454ed49a32c0b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Renderer.asset using Guid(a3c69f300d0aecf438454ed49a32c0b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebce08810599bf7e4459223fc332556a') in 0.0221662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class 07th (Prefab System)/Random Textures/Render Texture.renderTexture
-  artifactKey: Guid(591465b65488f794a969e1aed950a607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Random Textures/Render Texture.renderTexture using Guid(591465b65488f794a969e1aed950a607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02e039e30115421fac2e503cdcc9a0f9') in 0.0344113 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/Cosmetics/golf/Sphere_DefaultMaterial_Normal.png
-  artifactKey: Guid(f3be471ba996f854a8cfd59f0bdf3dcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/Cosmetics/golf/Sphere_DefaultMaterial_Normal.png using Guid(f3be471ba996f854a8cfd59f0bdf3dcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b81b74d62f1ac6a048778bb28d73f826') in 0.0451237 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/Checker/1_DefaultMaterial_Normal.png
-  artifactKey: Guid(befea18a41d7acc4dace95c7e997f9fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/Checker/1_DefaultMaterial_Normal.png using Guid(befea18a41d7acc4dace95c7e997f9fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c89bb2e2c54054382160e85b7f144cc0') in 0.0184231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Models/Level/Part1/90hole.fbx
-  artifactKey: Guid(8c732a3a3b1464349b9489fae511d295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Models/Level/Part1/90hole.fbx using Guid(8c732a3a3b1464349b9489fae511d295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e640983546ad22035b6c64a874892f69') in 0.0290608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/Pipes/1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(ae9f61fbd41cbc044898f43b43c054fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/Pipes/1_DefaultMaterial_AlbedoTransparency.png using Guid(ae9f61fbd41cbc044898f43b43c054fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb8b1483fc02b78774433b58bf548a72') in 0.0462125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90.prefab
-  artifactKey: Guid(6444a16b561214f4b8f98c4bed00d617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/90.prefab using Guid(6444a16b561214f4b8f98c4bed00d617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1537482f10780495a45674e5563ff995') in 0.0217371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_NormalOpenGL.png
-  artifactKey: Guid(e8c3ef8bf36e6e044a14397b9ac88fed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 07th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_NormalOpenGL.png using Guid(e8c3ef8bf36e6e044a14397b9ac88fed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f740aa60d146432ff3db923813933c02') in 0.0301448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/SidesHazard.prefab
-  artifactKey: Guid(c515f3e5539b8884ea7f2e1a4d94a27c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Level/SidesHazard.prefab using Guid(c515f3e5539b8884ea7f2e1a4d94a27c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e02448689ce1f3e7ac3534f73131d51') in 0.0288459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bumpers/Triangle.prefab
-  artifactKey: Guid(b465c127c7a70024ea9586596540d14a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Bumpers/Triangle.prefab using Guid(b465c127c7a70024ea9586596540d14a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3c08ac41e611c9d6992394513fe0edd') in 0.0230503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(aebad1f347dfe6d44959df1f3c07dc76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset using Guid(aebad1f347dfe6d44959df1f3c07dc76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a567fac7e95edb5afb5badf68fce852') in 0.0222101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/Hammer.prefab
-  artifactKey: Guid(5722c38e7ccb33e429cef840096c8e4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/Hammer.prefab using Guid(5722c38e7ccb33e429cef840096c8e4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f05fd1eccd2bc0bb45a8a1915b1bebcf') in 0.0413667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Collectables/Copper.prefab
-  artifactKey: Guid(f656011738ac50a459db5c8c1f96893a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/Collectables/Copper.prefab using Guid(f656011738ac50a459db5c8c1f96893a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e6a5ea441401d98ab5d82bb45153a3b') in 0.0268264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Textures/Bumpers/1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(54c3979f6b73af244afccae2bf43a60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Textures/Bumpers/1_DefaultMaterial_AlbedoTransparency.png using Guid(54c3979f6b73af244afccae2bf43a60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe3e9760bd5fb3b8f953b5e010fdf047') in 0.0153254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Materials/TransitionOutline.mat
-  artifactKey: Guid(464e79ffec29407499167f1863a3c88d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Materials/TransitionOutline.mat using Guid(464e79ffec29407499167f1863a3c88d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '391e5c7f97ae8531d78ed27bb06e6b88') in 0.0212094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets
-  artifactKey: Guid(0a2f9949cfe509a4ca35d8285bad819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets using Guid(0a2f9949cfe509a4ca35d8285bad819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd42ca94413c835db379d1792aed8fe5b') in 0.0281917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/WindMillFullColorFull.prefab
-  artifactKey: Guid(2ab0f99324683f945be41d406774f595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Prefabs/InteractProps/WindMillFullColorFull.prefab using Guid(2ab0f99324683f945be41d406774f595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1352b3cc7d40d0405f3b6b4a57353355') in 0.0247038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Shaders/Glass.shader
-  artifactKey: Guid(fd8c0f9e4717ba14dbee042b655f6aee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Shaders/Glass.shader using Guid(fd8c0f9e4717ba14dbee042b655f6aee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e508189513d0f887f9cec41296e49d1d') in 0.0174353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.531461 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/Renderer_Renderer.asset
-  artifactKey: Guid(d416008ef127c134e816a1e88fd31f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/Renderer_Renderer.asset using Guid(d416008ef127c134e816a1e88fd31f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd634cd5f7b94aa32261b6482f961af4f') in 0.0159723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class 08th(Physics System)/Golf Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(b20909cf6eb358e489e8c9a2ddaf1480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 08th(Physics System)/Golf Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(b20909cf6eb358e489e8c9a2ddaf1480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e6d9d10380fd7b40d3ef12f816b8e40') in 0.0010811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.612453 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/GateSmallFrameC.prefab
-  artifactKey: Guid(e6037065a7ca30841ba445cefd3ad5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/GateSmallFrameC.prefab using Guid(e6037065a7ca30841ba445cefd3ad5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f6b273a55cd997136e8bb4ada1e5318') in 0.0136436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/RampSmall.prefab
-  artifactKey: Guid(68a175f629f570f429cddf1860f76ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/RampSmall.prefab using Guid(68a175f629f570f429cddf1860f76ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1efc8f74462131fbc83db9f6fe9a252') in 0.0113687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/Rooms/Free_RoomA.prefab
-  artifactKey: Guid(1e4f0d9e7dbf221419b0bd0e1286aa16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/Rooms/Free_RoomA.prefab using Guid(1e4f0d9e7dbf221419b0bd0e1286aa16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '707541c6068c38934fbf63b5d4fa4635') in 0.0182638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 454
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/LabTable_mesh.fbx
-  artifactKey: Guid(7a16876a3740cbd4b863a3a3db778e14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/LabTable_mesh.fbx using Guid(7a16876a3740cbd4b863a3a3db778e14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea51e35e959eb9f30baf5557c6ed55fa') in 0.0145087 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes
-  artifactKey: Guid(f8d6b15ddd3a52f4bb19259aeb7fa40f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes using Guid(f8d6b15ddd3a52f4bb19259aeb7fa40f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31eb67a2efffcf35e9a6b8a815c6fad3') in 0.0072813 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/Materials/BLACK_mat.mat
-  artifactKey: Guid(32c524f702b0d224f8d55e4a82600761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/Materials/BLACK_mat.mat using Guid(32c524f702b0d224f8d55e4a82600761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe0611f53167641ce12e1c14148a2d01') in 0.013046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat
-  artifactKey: Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat using Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a81b30688fe9580e68c0ad760fee68e') in 0.008566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/FloorInteriorA6_mesh.fbx
-  artifactKey: Guid(bb26efff5bd20b047b87b0df33781012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/FloorInteriorA6_mesh.fbx using Guid(bb26efff5bd20b047b87b0df33781012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cae6c78b3a12de912cfefd27b2c71558') in 0.014181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/Rooms
-  artifactKey: Guid(668a67c142e0065439981911b91cfb11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/Rooms using Guid(668a67c142e0065439981911b91cfb11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02798502e6ce8cfd8df4ae12c361e42d') in 0.0079749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Scenes
-  artifactKey: Guid(ebac0f325aeb6884e96c89d60adf46ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Scenes using Guid(ebac0f325aeb6884e96c89d60adf46ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3a65627b50bed38351020cb1dcf76a7') in 0.0080739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/Materials
-  artifactKey: Guid(7df1a2f6b9f376442827ef4dfc6a8ce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/Materials using Guid(7df1a2f6b9f376442827ef4dfc6a8ce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '808f38194227c38fcab8641826fe08f4') in 0.007859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Free LowPoly SciFi Pack
-  artifactKey: Guid(98d63cce75ecbe24c9e41cabe2e965dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack using Guid(98d63cce75ecbe24c9e41cabe2e965dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0c5a49a569a7e631438ea7dedc08938') in 0.0097943 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/GateSmallFrameB_mesh.fbx
-  artifactKey: Guid(41c20a22c931844479143387a0152c7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/GateSmallFrameB_mesh.fbx using Guid(41c20a22c931844479143387a0152c7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac6bfe61920189af1ba9b6f799b73e6c') in 0.017011 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/PanelB.prefab
+  Time since last request: 410.517097 seconds.
+  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/PanelB.prefab
   artifactKey: Guid(c68b5d42961bd3a41a87f5d02a3af643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/PanelB.prefab using Guid(c68b5d42961bd3a41a87f5d02a3af643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f30a381b3ace12df7de24919001be069') in 0.0202699 seconds
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/PanelB.prefab using Guid(c68b5d42961bd3a41a87f5d02a3af643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6760c316d7fe63fc11dfe3fc979b3629') in 0.2085338 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Scenes/DemoScene.unity
-  artifactKey: Guid(a6096f87c0bb6ae47affc4d9c4af4beb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Scenes/DemoScene.unity using Guid(a6096f87c0bb6ae47affc4d9c4af4beb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ec492e6d040a83a58afd80d3a310620') in 0.0084174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/WallLargeB.prefab
+  Time since last request: 0.000037 seconds.
+  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/WallLargeB.prefab
   artifactKey: Guid(0150c0006494bd84198ac13cd4d0d7f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/WallLargeB.prefab using Guid(0150c0006494bd84198ac13cd4d0d7f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da85bfd0650e91409f246b1c7325741c') in 0.0136673 seconds
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/WallLargeB.prefab using Guid(0150c0006494bd84198ac13cd4d0d7f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a1e92fcfdf891d974ee5f6a599294e7') in 0.0337166 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/LabTable.prefab
-  artifactKey: Guid(e20b8b783289f644684f9e94fddbd56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/LabTable.prefab using Guid(e20b8b783289f644684f9e94fddbd56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74129cdf63e9eaf40a0537998e2de12d') in 0.0150558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/Materials/WHITE_LIGHT_mat.mat
-  artifactKey: Guid(fe3d7f74bcb386249b9f331665436fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/Materials/WHITE_LIGHT_mat.mat using Guid(fe3d7f74bcb386249b9f331665436fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93e032979e2d5b4aea7084151fcb2099') in 0.0096042 seconds
+  Time since last request: 0.000055 seconds.
+  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLACK_mat.mat
+  artifactKey: Guid(32c524f702b0d224f8d55e4a82600761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLACK_mat.mat using Guid(32c524f702b0d224f8d55e4a82600761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d04c5845401c6b42e53098ccb928d09') in 0.06168 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/HandRailSmall.prefab
-  artifactKey: Guid(230464eeaeb27b54c8c52bd67155038c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/HandRailSmall.prefab using Guid(230464eeaeb27b54c8c52bd67155038c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07ca89d3fb272233606061aa170d8105') in 0.0201164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/ColumnB_mesh.fbx
-  artifactKey: Guid(5fd94bba744a8c44991c32247651bb99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/ColumnB_mesh.fbx using Guid(5fd94bba744a8c44991c32247651bb99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '059146d0d56eb3e5dfc8ff8718da3032') in 0.0165613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs
-  artifactKey: Guid(0f3e9c8248b15e94d90096a222c82e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs using Guid(0f3e9c8248b15e94d90096a222c82e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab7b4e59256c62f9ca66e37a45e88b17') in 0.0070672 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Meshes/WallLargeB_mesh.fbx
-  artifactKey: Guid(69850715f8d465b45a1e9698cd699191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Meshes/WallLargeB_mesh.fbx using Guid(69850715f8d465b45a1e9698cd699191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '101be3925ab749aae1358891bd0413cc') in 0.0146041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Free LowPoly SciFi Pack/Prefabs/CornerWindowA.prefab
-  artifactKey: Guid(3aa541d38da2cd643aec89b050153446) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free LowPoly SciFi Pack/Prefabs/CornerWindowA.prefab using Guid(3aa541d38da2cd643aec89b050153446) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85b5db2bc111ee4a125fe75860d1e49e') in 0.012067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.812309 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack
-  artifactKey: Guid(98d63cce75ecbe24c9e41cabe2e965dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack using Guid(98d63cce75ecbe24c9e41cabe2e965dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce9b53c3a8402b5aabf8fdd44e45fe69') in 0.0087356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/RampSmall.prefab
-  artifactKey: Guid(68a175f629f570f429cddf1860f76ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/RampSmall.prefab using Guid(68a175f629f570f429cddf1860f76ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '097ea361f4fa3b1956d27f025b3f4b53') in 0.0103275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/HUD_mat.mat
-  artifactKey: Guid(a946c48434360e247847c40296294ce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/HUD_mat.mat using Guid(a946c48434360e247847c40296294ce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb1e9bc528c5b4d9a6d31f823c27f9f8') in 0.0089749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/GateSmallFrameC.prefab
-  artifactKey: Guid(e6037065a7ca30841ba445cefd3ad5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/GateSmallFrameC.prefab using Guid(e6037065a7ca30841ba445cefd3ad5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b07902d3033365fc888ddc12e3aa78e8') in 0.0130073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/WallSmallC.prefab
-  artifactKey: Guid(ba75f6548b81ad440be3522e8695d23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/WallSmallC.prefab using Guid(ba75f6548b81ad440be3522e8695d23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93a5e17949dd93915fc6e11ed6661d59') in 0.0113604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/ColumnB.prefab
-  artifactKey: Guid(8b4141ff278aa944e95d5357a1b9ad86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/ColumnB.prefab using Guid(8b4141ff278aa944e95d5357a1b9ad86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcfc32bbbe6098c0e35ec414e592e482') in 0.0113844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/LabTable.prefab
-  artifactKey: Guid(e20b8b783289f644684f9e94fddbd56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/LabTable.prefab using Guid(e20b8b783289f644684f9e94fddbd56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0945040904fb1c2f7331f16a4ffb1afb') in 0.0111153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorA4.prefab
-  artifactKey: Guid(e274c7bd48f126345961fb198e1c16db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorA4.prefab using Guid(e274c7bd48f126345961fb198e1c16db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fed9f880ecc5e7f96ba413d3bfbb35ec') in 0.0117752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.425981 seconds.
-  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/GREY_mat.mat
-  artifactKey: Guid(ded3ee337069fe34aad399430dc3856c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/GREY_mat.mat using Guid(ded3ee337069fe34aad399430dc3856c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ab19f49f0fbcc1c64f70606608f7e4') in 0.4528559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.749745 seconds.
   path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat
   artifactKey: Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat using Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a15c43fd34fe87c03f997bc6737d62bb') in 0.0108123 seconds
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat using Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb6408bb63b2b8705aadfc203a85ebaf') in 0.022274 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs
+  artifactKey: Guid(0f3e9c8248b15e94d90096a222c82e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs using Guid(0f3e9c8248b15e94d90096a222c82e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8cbaf3b57514df875304cd56f6137e7') in 0.0110002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorA6.prefab
+  artifactKey: Guid(101f679722cc4c546a9cb039c6c83e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorA6.prefab using Guid(101f679722cc4c546a9cb039c6c83e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f984feb2477f532253a0914184273a3') in 0.0465832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/CeilingLampA.prefab
+  artifactKey: Guid(52ad5c9c020a19c4bb74de3a99cf0974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 08th(Physics System)/Free LowPoly SciFi Pack/Prefabs/CeilingLampA.prefab using Guid(52ad5c9c020a19c4bb74de3a99cf0974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '388164ba375eaeb93c456bd2c65c0cfc') in 0.0343531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

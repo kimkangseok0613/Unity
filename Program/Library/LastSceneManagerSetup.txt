@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 08th(Physics System)/Scenes/Class 08th(Physics System).unity
+- path: Assets/Class 09th (Coroutine)/Scenes/Class 09th (Coroutine).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
