@@ -150,6 +150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CreateManager
   elemental: {fileID: 3679055691871304326, guid: d7ddb0c9afcebef47a2d3e47e32e8bae, type: 3}
   offset: 1.5
+  list: []
+  count: 0
+  time: 0
 --- !u!4 &1400980575
 Transform:
   m_ObjectHideFlags: 0
