@@ -463,6 +463,7 @@
 "Assets/Class 08th(Physics System)/Scripts/Controller.cs"
 "Assets/Class 08th(Physics System)/Scripts/Sensor.cs"
 "Assets/Class 09th (Coroutine)/Scripts/CreateManager.cs"
+"Assets/Class 10th (Sound System)/Scripts/AudioManager.cs"
 "Assets/Class 10th (Sound System)/Scripts/Interaction.cs"
 -langversion:9.0
 /deterministic

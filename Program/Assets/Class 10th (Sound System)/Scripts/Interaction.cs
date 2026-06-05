@@ -1,16 +1,32 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Interaction : MonoBehaviour
 {
     [SerializeField] Ray ray;
+    [SerializeField] LayerMask layerMask;
+    [SerializeField] RaycastHit raycastHit;
+    [SerializeField] float distance = 100.0f;
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
+            if (Physics.Raycast(ray, out raycastHit, distance, layerMask))
+            {
+                AudioSource audioSource = raycastHit.collider.gameObject.GetComponent<AudioSource>();
+
+                if (audioSource.isPlaying == false)
+                {
+                    audioSource.Play();
+                    Debug.Log("Now Playing " + raycastHit.collider.gameObject.name);
+                }
+            }
+        }
     }
     private void OnDrawGizmos()
     {
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
         Gizmos.DrawRay(ray.origin,ray.direction * 100);
     }
 }
